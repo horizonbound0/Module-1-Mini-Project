@@ -59,6 +59,10 @@ li {
     padding-right: 10px;
 }
 
+input {
+    color: #016817;
+}
+
 #contact-me-section {
     background-color: #288f00;
     text-align: center;
