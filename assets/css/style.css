@@ -1,0 +1,79 @@
+/* I googled "matrix color palette lol. I tweaked a couple of the colors a little. URL: https://www.color-hex.com/color-palette/8591 */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff2b
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    margin-bottom: 100px;
+}
+
+header, footer {
+    /* Color from URL: https://html-color-codes.info/ */
+    background-color: #288f00;
+}
+
+header {    
+    border-bottom: solid 10px #016817;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    align-content: center;
+    position: sticky;
+    top: 10px;
+}
+
+a {
+    color: #00ff2b;
+}
+
+main {
+    position: relative;
+    padding-top: 150px;
+    display: block;
+    text-align: center;
+}
+
+img {
+    margin: 20px auto 60px;
+}
+
+footer {
+    border-bottom: solid 10px #016817;
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+#contact-me-section {
+    background-color: #288f00;
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.contact-menu {
+    margin: auto;
+    background-color: #288f00;
+    border: solid 2px #016817;
+    margin: 5px 300px 5px;
+    padding: 5px;
+}
+#email-box {
+    position: relative;
+    right: 5px
+}
