@@ -39,8 +39,18 @@ main {
     text-align: center;
 }
 
+h1 {
+    text-shadow: 10px 10px 8px #288f00;
+}
+
 img {
     margin: 20px auto 60px;
+    box-shadow: 0 0 20px 8px #00ff2b;
+}
+
+.description {
+    text-shadow: 10px 10px 4px #00ff2b;
+    font-size: large;
 }
 
 footer {
@@ -59,10 +69,6 @@ li {
     padding-right: 10px;
 }
 
-input {
-    color: #016817;
-}
-
 #contact-me-section {
     background-color: #288f00;
     text-align: center;
@@ -76,7 +82,13 @@ input {
     border: solid 2px #016817;
     margin: 5px 300px 5px;
     padding: 5px;
+    box-shadow: 10px 10px 20px 1px #016817;
 }
+
+input {
+    color: #016817;
+}
+
 #email-box {
     position: relative;
     right: 5px
